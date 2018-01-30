@@ -5,3 +5,5 @@ disableKinds = ["taxonomy","taxonomyTerm","sitemap","RSS"]
 
 publishDir= "docs"
 baseURL = "https://nfriedli.github.io/benevolat/"
+
+canonifyURLs = true
