@@ -1,0 +1,58 @@
+@font-face {
+    font-family: 'varela';
+    src: url('varelaround-regular-webfont.woff2') format('woff2'),
+    url('varelaround-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lora';
+    src: url('lora-bold-webfont.woff2') format('woff2'),
+    url('lora-bold-webfont.woff') format('woff');
+    font-weight: bold;
+    font-style: normal;
+}
+
+@font-face {
+    font-family: 'lora';
+    src: url('lora-regular-webfont.woff2') format('woff2'),
+    url('lora-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+html {
+    margin: auto;
+    color: #444;
+    background: #FFE4C4;
+    line-height: 1.6;
+}
+body {
+    margin: auto;
+    padding: 1em;
+    max-width: 30em;
+    font-size: 150%;
+    font-size: calc(120% + .5vw);
+    font-family: lora, Georgia, serif;
+}
+a {
+    border-bottom: 4px solid #b412bf;
+    text-decoration: none;
+    color: #444;
+}
+h1, h2, footer {
+    font-family: varela, 'Open Sans', Arial, sans-serif;
+    color: #666;
+}
+h1 {
+    color: #b412bf;
+    font-weight: 400;
+    font-size: 200%;
+}
+footer {
+    padding-top: 3em;
+    font-size: 80%;
+    line-height: 1.4;
+}
+</style>
