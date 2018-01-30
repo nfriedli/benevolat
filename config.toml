@@ -1,4 +1,7 @@
-baseURL = "http://example.org/"
 title = "Bénévolat"
 languageCode = "fr"
 defaultContentLanguage = "fr"
+disableKinds = ["taxonomy","taxonomyTerm","sitemap","RSS"]
+
+publishDir= "docs"
+baseURL = "https://nfriedli.github.io/benevolat/"
