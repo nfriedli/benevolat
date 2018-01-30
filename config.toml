@@ -1,0 +1,4 @@
+baseURL = "http://example.org/"
+title = "Bénévolat"
+languageCode = "fr"
+defaultContentLanguage = "fr"
