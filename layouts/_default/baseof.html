@@ -7,10 +7,13 @@
       {{ end }}</title>
     <meta name=viewport content="width=device-width, initial-scale=1">
     <link rel="stylesheet" type="text/css" href="/css/style.css">
+    <script src="/js/baffle.min.js"></script>
   </head>
   <body>
+    <main>
     {{ block "main" . }}
     {{ end }}
+    </main>
     {{ block "footer" . }}
     <footer>
       <p>Un outil d'auto-profilage proposé par l'EREN
@@ -22,5 +25,8 @@
       {{ if not .IsHome }}<p class="start"><a href="/">Retour au départ</a></p>{{ end }}
     </footer>
     {{ end }}
+    <script>
+    baffle('h1').start().reveal(1500);
+    </script>
   </body>
 </html>
