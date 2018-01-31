@@ -13,14 +13,13 @@
     {{ end }}
     {{ block "footer" . }}
     <footer>
-      {{ if not .IsHome }}<p class="start"><a href="/">Retour au départ</a></p>{{ end }}
-      <p>Un jeu d'auto-profilage proposé par l'EREN
+      <p>Un outil d'auto-profilage proposé par l'EREN
 	      {{ if .IsHome }}(Église réformée évangélique du canton de Neuchâtel){{ end }}.
   Des propositions vous sont faites à titre indicatif.
   N'hésitez jamais à contacter l'animatrice cantonale du bénévolat pour vous aider dans votre choix ou annoncer votre intérêt:
   Jacqueline Lavoyer-Bünzli, 079 704 74 45, <a href="mailto:jacqueline.lavoyer@eren.ch">jacqueline.lavoyer@eren.ch</a>.
-
       </p>
+      {{ if not .IsHome }}<p class="start"><a href="/">Retour au départ</a></p>{{ end }}
     </footer>
     {{ end }}
   </body>
