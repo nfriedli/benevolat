@@ -7,3 +7,5 @@ Je souhaite…
 
 - [faire partie d’une équipe](1/)
 - [rester indépendant·e](2/)
+
+{{< figure src="/img/et.jpg" alt="Nous et vous" >}}

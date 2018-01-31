@@ -55,4 +55,16 @@ footer {
     font-size: 80%;
     line-height: 1.4;
 }
-</style>
+
+p.depart {
+  font-size: 90%;
+}
+
+figure {
+  margin: 1em -1em;
+}
+
+img {
+  display:block;
+  max-width: 100%;
+}
