@@ -4,6 +4,13 @@ defaultContentLanguage = "fr"
 disableKinds = ["taxonomy","taxonomyTerm","sitemap","RSS"]
 
 publishDir= "docs"
-baseURL = "https://nfriedli.github.io/benevolat/"
+baseURL = "https://nfriedli.github.io/benevolat"
 
-canonifyURLs = true
+# Adresse actuelle
+# baseURL = "https://www.eren.ch/benevolat/"
+
+# Adresse pour passage en PWA (ne marche pas si pas à la racine)
+# hugo --minify && cd docs && sw-precache && cd ..
+# baseURL = "https://benevolat.eren.ch"
+
+canonifyURLs = false
