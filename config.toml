@@ -13,4 +13,6 @@ baseURL = "https://nfriedli.github.io/benevolat"
 # hugo --minify && cd docs && sw-precache && cd ..
 # baseURL = "https://benevolat.eren.ch"
 
-canonifyURLs = false
+# Les URLs canoniques sont utiles pour les tests sur https://nfriedli.github.io/benevolat
+canonifyURLs = true
+# canonifyURLs = false
