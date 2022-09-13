@@ -4,7 +4,7 @@ defaultContentLanguage = "fr"
 disableKinds = ["taxonomy","taxonomyTerm","sitemap","RSS"]
 
 publishDir= "public"
-baseURL = "https://eren.ch/benevolat/"
+baseURL = "https://www.eren.ch/benevolat/"
 
 # Les URLs canoniques sont utiles pour les tests sur https://nfriedli.github.io/benevolat
 canonifyURLs = true
