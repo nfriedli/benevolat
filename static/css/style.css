@@ -1,55 +1,32 @@
-@font-face {
-    font-family: 'varela';
-    src: url('varelaround-regular-webfont.woff2') format('woff2'),
-    url('varelaround-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'lora';
-    src: url('lora-bold-webfont.woff2') format('woff2'),
-    url('lora-bold-webfont.woff') format('woff');
-    font-weight: bold;
-    font-style: normal;
-}
-
-@font-face {
-    font-family: 'lora';
-    src: url('lora-regular-webfont.woff2') format('woff2'),
-    url('lora-regular-webfont.woff') format('woff');
-    font-weight: normal;
-    font-style: normal;
-
-}
 html {
     margin: auto;
-    color: #444;
-    background: #F5F0E4;
+    color: #1e1345;
+    background: #FFF;
     line-height: 1.6;
 }
+
 body {
     margin: auto;
     padding: 1em;
-    max-width: 30em;
+    max-width: 25em;
     font-size: 150%;
-    font-size: calc(120% + .5vw);
-    font-family: lora, Georgia, serif;
+    font-size: calc(110% + .5vw);
+    font-family: Roboto, sans-serif;
 }
+
 a {
-    border-bottom: 4px solid #b412bf;
+    border-bottom: 4px solid #877201;
     text-decoration: none;
-    color: #444;
+    color: inherit;
 }
-h1, h2, footer {
-    font-family: varela, 'Open Sans', Arial, sans-serif;
-    color: #666;
-}
+
 h1 {
-    color: #b412bf;
+  font-family: "Roboto Slab", Roboto, sans-serif;
+    color: #877201;
     font-weight: 400;
     font-size: 200%;
 }
+
 footer {
     padding-top: 3em;
     font-size: 80%;
@@ -57,11 +34,7 @@ footer {
 }
 
 p.depart {
-  font-size: 90%;
-}
-
-figure {
-  margin: 1em -1em;
+  font-size: 85%;
 }
 
 img {

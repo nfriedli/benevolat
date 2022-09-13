@@ -11,5 +11,3 @@ Ce qui me motive le plus, c’est quand je peux …
 - [organiser, prendre des responsabilités](2/)
 - [exprimer ma créativité](3/)
 - [transmettre, enseigner](4/)
-
-{{< figure src="/img/avec.jpg" alt="Nous avec vous" >}}
