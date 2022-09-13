@@ -10,6 +10,9 @@ baseURL = "https://nfriedli.github.io/benevolat"
 canonifyURLs = true
 # canonifyURLs = false
 
+cleanDestinationDir = true
+disableFastRender = true
+
 [minify]
 minifyOutput = true
 [minify.tdewolff.html]
