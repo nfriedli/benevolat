@@ -10,6 +10,13 @@ baseURL = "https://nfriedli.github.io/benevolat"
 canonifyURLs = true
 # canonifyURLs = false
 
+[minify]
+minifyOutput = true
+[minify.tdewolff.html]
+keepDocumentTags = true
+keepEndTags = true
+keepQuotes = true
+
 [params]
 footer = """
 Un outil d'auto-profilage proposé par l'EREN (Église réformée évangélique du canton de Neuchâtel). Des propositions vous sont faites à titre indicatif. 
